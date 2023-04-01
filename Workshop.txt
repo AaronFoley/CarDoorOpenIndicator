@@ -1,0 +1,12 @@
+version=1
+id=2955723750
+title=Car Door Open Indicator
+description=Adds a simple flashing and beeping alert when any Door/Trunk/Hood is open whilst in the drivers seat of a car.
+description=
+description=Also adds additional Radial Menu Options accessible when the car is stopped:
+description=
+description=- Close all Car Doors
+description=- Close Trunk
+description=- Close Hood
+tags=Build 41;Interface;Vehicles
+visibility=public
