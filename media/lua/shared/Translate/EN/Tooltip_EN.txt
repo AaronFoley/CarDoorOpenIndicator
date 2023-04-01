@@ -1,0 +1,6 @@
+UI_EN = {
+    Tooltip_CDOI_doors = "Lock Doors. There is a door open",
+    Tooltip_CDOI_trunkLocked = "Trunk is locked. Trunk is Open",
+    Tooltip_CDOI_trunkUnlocked = "Trunk is unlocked. Trunk is Open",
+    Tooltip_CDOI_engine = "Engine status. The hood is Open.",
+}

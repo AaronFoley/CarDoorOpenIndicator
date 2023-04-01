@@ -1,0 +1,8 @@
+ContextMenu_EN = {
+    ContextMenu_CDOI_closeDoors = "Close all doors",
+    ContextMenu_CDOI_closeDoorsStopCar = "Stop the car to close all doors",
+    ContextMenu_CDOI_closeHood = "Close the Hood",
+    ContextMenu_CDOI_closeHoodStopCar = "Stop the car to close the hood",
+    ContextMenu_CDOI_closeTrunk = "Close the trunk",
+    ContextMenu_CDOI_closeTrunkStopCar = "Stop the car to close the trunk",
+}

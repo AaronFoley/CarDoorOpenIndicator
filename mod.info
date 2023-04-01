@@ -1,0 +1,7 @@
+name=Car Door Open Indicator
+id=CDOI
+description=Alerts you with flashing dash lights and sound if any Door/Trunk/Hood is open on the vehicle
+poster=poster.png
+authors=AaronFoley
+url=https://github.com/AaronFoley/CarDoorOpenIndicator
+modversion=1.0
