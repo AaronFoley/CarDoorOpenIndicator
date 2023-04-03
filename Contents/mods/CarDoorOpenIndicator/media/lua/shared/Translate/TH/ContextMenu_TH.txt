@@ -1,0 +1,8 @@
+ContextMenu_TH = {
+    ContextMenu_CDOI_closeDoors = "ปิดประตูทุกบาน",
+    ContextMenu_CDOI_closeDoorsStopCar = "หยุดรถเพื่อปิดประตูทุกบาน",
+    ContextMenu_CDOI_closeHood = "ปิดฝากระโปรงหน้า",
+    ContextMenu_CDOI_closeHoodStopCar = "หยุดรถเพื่อปิดฝากระโปรงหน้า",
+    ContextMenu_CDOI_closeTrunk = "ปิดฝาท้ายรถ",
+    ContextMenu_CDOI_closeTrunkStopCar = "หยุดรถเพื่อปิดฝาท้ายรถ",
+}
