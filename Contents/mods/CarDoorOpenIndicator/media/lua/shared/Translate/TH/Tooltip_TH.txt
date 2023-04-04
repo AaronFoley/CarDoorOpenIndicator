@@ -1,0 +1,6 @@
+UI_TH = {
+    Tooltip_CDOI_doors = "ล็อกประตู มีประตูเปิดอยู่",
+    Tooltip_CDOI_trunkLocked = "ฝาท้ายรถถูกล็อก ฝาท้ายรถเปิดอยู่",
+    Tooltip_CDOI_trunkUnlocked = "ฝาท้ายรถไม่ได้ล็อก ฝาท้ายรถเปิดอยู่",
+    Tooltip_CDOI_engine = "สถานะเครื่องยนต์ ฝากระโปรงหน้าเปิดอยู่",
+}
