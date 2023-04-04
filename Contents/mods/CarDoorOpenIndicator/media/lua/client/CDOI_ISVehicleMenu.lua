@@ -70,9 +70,9 @@ function ISVehicleMenu.showRadialMenuOutside(playerObj)
         end
         if ISVehicleDashboard:isHoodOpen(vehicle) then
             local engineDoor = vehicle:getPartById("EngineDoor")
-            if useablePart ~= trunkDoor then
+            if useablePart ~= engineDoor then
                 menu:addSlice(getText("ContextMenu_CDOI_closeHood"), getTexture("media/ui/vehicles/vehicle_exit.png"), ISVehicleMenu.onCloseExternalDoor, playerObj, vehicle, engineDoor)
-            end 
+            end
         end
     end
 end
