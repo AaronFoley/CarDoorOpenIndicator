@@ -4,4 +4,4 @@ description=Alerts you with flashing dash lights and sound if any Door/Trunk/Hoo
 poster=poster.png
 authors=AaronFoley
 url=https://github.com/AaronFoley/CarDoorOpenIndicator
-modversion=1.0
+modversion=1.0.1
