@@ -92,7 +92,7 @@ function ISVehicleDashboard:isAnyDoorOpen(vehicle)
     if not vehicle then return false end
     for seat=1,vehicle:getMaxPassengers() do
 		local part = vehicle:getPassengerDoor(seat-1)
-		if part and part:getDoor() then
+		if part and part:getDoor() and part:getCategory() ~= "nodisplay" then
             -- If the door is missing, then it is open
             if not part:getInventoryItem() then return true end
             if part:getDoor():isOpen() then return true end
@@ -105,7 +105,7 @@ end
 function ISVehicleDashboard:isTrunkOpen(vehicle)
     if not vehicle then return false end
     local trunkDoor = vehicle:getPartById("TrunkDoor") or vehicle:getPartById("DoorRear")
-    if trunkDoor and trunkDoor:getDoor() then
+    if trunkDoor and trunkDoor:getDoor() and trunkDoor:getCategory() ~= "nodisplay" then
         -- If the door is missing, then it is open
         if not trunkDoor:getInventoryItem() then return true end
         if trunkDoor:getDoor():isOpen() then return true end
@@ -117,7 +117,7 @@ end
 function ISVehicleDashboard:isHoodOpen(vehicle)
     if not vehicle then return false end
     local engineDoor = vehicle:getPartById("EngineDoor")
-    if engineDoor and engineDoor:getDoor() then
+    if engineDoor and engineDoor:getDoor() and engineDoor:getCategory() ~= "nodisplay" then
         -- If the door is missing, then it is open
         if not engineDoor:getInventoryItem() then return true end
         if engineDoor:getDoor():isOpen() then return true end

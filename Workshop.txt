@@ -1,4 +1,4 @@
-version=1.0.1
+version=1.0.2
 id=2955723750
 title=Car Door Open Indicator
 description=[h1]Description[/h1]
